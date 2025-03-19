@@ -111,7 +111,7 @@ const ProductList = () => {
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{product.name}</h5>
                   <p className="card-text text-truncate">{product.description}</p>
-                  <p className="card-text fw-bold">Price: ${product.price}</p>
+                  <p className="card-text fw-bold">Price: ₹{product.price}</p>
                 </div>
               </div>
             </div>
